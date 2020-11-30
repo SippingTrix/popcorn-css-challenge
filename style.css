@@ -46,12 +46,24 @@
     -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
   }
-  #hide{
-    align-self:center;
-    display:block;
-
-    
+  .hide{
+    display: none;
+    background:white;
+    width:20%;
+    margin-left: auto;
+    margin-top:30px;
+    margin-right:auto;
+    height: 180px;
+    align-items:center;
+    padding:15px;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
   }
+   
+    
+    
+  
   .card h3{
     text-align: center;
   }

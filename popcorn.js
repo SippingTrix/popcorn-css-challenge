@@ -13,6 +13,14 @@ function learnMore(){
         x.style.visibility = 'visible';
        }
     }
+function groupRates(){
+    var x = document.querySelector("#main > div.hide")
+    if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
 
 
 
@@ -41,4 +49,4 @@ function learnMore(){
 //             San Juan, Bayamon, Carolina, Ponce, Caguas
 //         * Another button that says "Book it"
 //             when clicking this button - 
-//             the information input from the form should be displayed in an 
+//             the information input from the form should be displayed in an alert
